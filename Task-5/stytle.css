@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.shape {
+    background-color: rgba(128, 128, 128, 0.589);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.shape1 {
+    border: 5px solid red;
+    outline: 5px solid black;
+}
+
+.shape2 {
+    border: 5px solid green;
+    border-top-color: blue;
+    border-bottom-color: blue;
+    outline: 5px solid black;
+}
+
+.shape3 {
+    border: 5px dashed white;
+    border-top-color: red;
+    border-bottom-color: blue;
+    border-left-color: yellow;
+    border-right-color: green;
+    
+    outline: 5px solid black;
+}
+
+.element {
+    width: 400px;
+    background-color: rgba(128, 128, 128, 0.418);
+    padding: 10px;
+    margin: auto; 
+}
+.element-1 {
+    margin-top: 50px;
+    border-left: 5px solid rgb(255, 0, 43) ;
+    outline: 6px solid rgba(128, 128, 128, 0.418);
+}
+.element-2 {
+   visibility: hidden;
+   margin: 20px auto;
+}
+
+.element-3 {
+    border-left: 5px solid rgb(2, 141, 122) ;
+    outline: 6px solid rgba(128, 128, 128, 0.418);
+}
