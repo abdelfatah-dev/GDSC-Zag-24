@@ -1,0 +1,9 @@
+div {
+    display: flex;
+    flex-direction: column;
+    
+}
+img {
+    margin-top: 10px;
+    border-radius: 7px;
+}
