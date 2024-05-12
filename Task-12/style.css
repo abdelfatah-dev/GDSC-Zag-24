@@ -1,0 +1,167 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.elements {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+p {
+  display: block;
+  width: 20px;
+  height: 20px;
+  animation-name: p;
+  animation-duration: 1.5s;
+}
+
+@keyframes p {
+    0% {display: none;}
+    100% {display: block; }
+}
+
+.p1 {
+  position: relative;
+  background-color: #e84539;
+  border-radius: 50%;
+  animation-name: p1;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+@keyframes p1 {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(110px);
+    
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.p2 {
+  background-color: #4e7df4;
+  border-radius: 50%;
+  position: relative;
+  animation-name: p2;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes p2 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 0px;
+    top: -25px;
+  }
+  50% {
+    left: 35px;
+    top: -25px;
+  }
+  75% {
+    left: 35px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.p3 {
+  background-color: #159f58;
+  border-radius: 50%;
+  position: relative;
+  animation-name: p3;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes p3 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 0px;
+    top: 25px;
+  }
+  50% {
+    left: -35px;
+    top: 25px;
+  }
+  75% {
+    left: -35px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.p4 {
+  background-color: #fabf14;
+  border-radius: 50%;
+  animation-name: p4;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+@keyframes p4 {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-110px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.left {
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+}
+
+@keyframes example {
+  0% {
+    right: 0px;
+  }
+  50% {
+    right: 100px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+.right {
+  position: relative;
+  animation-name: ex;
+  animation-duration: 3s;
+}
+
+@keyframes ex {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 100px;
+  }
+  100% {
+    left: 0px;
+  }
+}
